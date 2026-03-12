@@ -618,12 +618,12 @@ def ask_ollama(prompt, timeout=600):
 # --- Main Streamlit App ---
 def main():
     st.set_page_config(
-        page_title="Unified MediExtract AI - Medical Report OCR",
+        page_title="SwasthStack",
         page_icon="🏥",
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    st.title("🏥 Unified MediExtract AI - Medical Report OCR")
+    st.title("🏥 SwasthStack")
     st.markdown("### AI-Powered Medical Report Extraction with Multi-OCR, Dashboard, and AI Query")
     if 'processor' not in st.session_state:
         st.session_state.processor = EnhancedMedicalReportOCR()

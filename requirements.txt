@@ -1,0 +1,14 @@
+opencv-python
+numpy
+requests
+tqdm
+pytesseract
+streamlit
+easyocr
+plotly
+pandas
+Pillow
+PyMuPDF
+zipfile36
+chromadb>=0.4.22
+sentence-transformers>=2.2.2
